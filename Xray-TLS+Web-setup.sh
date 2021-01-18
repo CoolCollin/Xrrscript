@@ -1728,7 +1728,7 @@ get_web()
     ([ $2 -eq 1 ] || [ $2 -eq 2 ]) && return 0
     local url
     [ $2 -eq 4 ] && url="${nextcloud_url}"
-    [ $2 -eq 3 ] && url="https://github.com/CoolCollin/Xray-script/raw/main/Website-Template.zip"
+    [ $2 -eq 3 ] && url="https://github.com/CoolCollin/Xray-script/raw/main/soccer.zip"
     local info
     [ $2 -eq 4 ] && info="Nextcloud"
     [ $2 -eq 3 ] && info="网站模板"
